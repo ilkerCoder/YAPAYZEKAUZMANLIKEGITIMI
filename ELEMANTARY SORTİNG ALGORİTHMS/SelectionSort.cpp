@@ -23,8 +23,8 @@
     int main() {
         int dizi[7];
         int size = 7 ; 
-        cout << "-----\tELEMENTARY SORT ALGORITMASI ORNEGINE HOSGELDIN.\t*****\n"; 
-        cout << "-----\tSIRALAMAM ICIN BANA 5 TANE SAYI VERMEN GEREKIYOR. ISTERSEN BASLAYALIM\t*****\n"; 
+        cout << "----->\tELEMENTARY SORT ALGORITMASI ORNEGINE HOSGELDIN.\n"; 
+        cout << "----->\tSIRALAMAM ICIN BANA 5 TANE SAYI VERMEN GEREKIYOR. ISTERSEN BASLAYALIM\n"; 
         int girilenSayi;
         
         for (size_t i = 0; i < size; i++)
@@ -33,7 +33,7 @@
             cin >> girilenSayi ; 
             dizi[i] = girilenSayi ; 
         }
-        cout << "-----\tTESEKKURLER. SIMDI GIRDIGIN SAYILARI SIRALIYORUM...\t*****\n";
+        cout << "----->\tTESEKKURLER. SIMDI GIRDIGIN SAYILARI SIRALIYORUM...\t*****\n";
         try
         {
                 
