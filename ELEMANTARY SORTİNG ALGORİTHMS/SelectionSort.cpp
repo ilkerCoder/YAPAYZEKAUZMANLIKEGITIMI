@@ -33,7 +33,7 @@
             cin >> girilenSayi ; 
             dizi[i] = girilenSayi ; 
         }
-        cout << "----->\tTESEKKURLER. SIMDI GIRDIGIN SAYILARI SIRALIYORUM...\t*****\n";
+        cout << "----->\tTESEKKURLER. SIMDI GIRDIGIN SAYILARI SIRALIYORUM...\n";
         try
         {
                 
