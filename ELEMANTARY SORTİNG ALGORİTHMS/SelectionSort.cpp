@@ -21,15 +21,37 @@
     }
 
     int main() {
-        int dizi [] =  {1,10,5,20,3,90 , 2}; 
-        int size =  sizeof(dizi) / sizeof(dizi[0]) ; 
-        int *sortedDizi;
-        sortedDizi=selectionSort(dizi , size);
+        int dizi[7];
+        int size = 7 ; 
+        cout << "-----\tELEMENTARY SORT ALGORITMASI ORNEGINE HOSGELDIN.\t*****\n"; 
+        cout << "-----\tSIRALAMAM ICIN BANA 5 TANE SAYI VERMEN GEREKIYOR. ISTERSEN BASLAYALIM\t*****\n"; 
+        int girilenSayi;
+        
         for (size_t i = 0; i < size; i++)
         {
-        cout << sortedDizi[i] << " " ; 
-            
+            cout<< i+1 <<".SAYI==>   " ;
+            cin >> girilenSayi ; 
+            dizi[i] = girilenSayi ; 
         }
+        cout << "-----\tTESEKKURLER. SIMDI GIRDIGIN SAYILARI SIRALIYORUM...\t*****\n";
+        try
+        {
+                
+                int *sortedDizi;
+                sortedDizi=selectionSort(dizi , size);
+                cout << "ISTE SIRALANMIS HALI==>" ; 
+                for (size_t i = 0; i < size; i++)
+                {
+                cout << sortedDizi[i] << " " ; 
+                    
+                }
+        
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << e.what() << '\n';
+        }
+        
         
 
     }
