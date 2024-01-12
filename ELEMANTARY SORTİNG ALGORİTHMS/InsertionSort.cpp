@@ -45,7 +45,7 @@
     int main() {
         int dizi[7];
         int size = 7 ; 
-        cout << "----->\tELEMENTARY SORT ALGORITMASI ORNEGINE HOSGELDIN.\n"; 
+        cout << "----->\tINSERTION SORT ALGORITMASI ORNEGINE HOSGELDIN.\n"; 
         cout << "----->\tSIRALAMAM ICIN BANA 5 TANE SAYI VERMEN GEREKIYOR. ISTERSEN BASLAYALIM\n"; 
         int girilenSayi;
         
